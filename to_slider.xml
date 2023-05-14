@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<stock> 
+    <info id="11">
+        <toimg>АКЦИЯ НА БЛЮДА С МОРЕПРОДУКАТМИ</toimg> 
+        <pic>images/11.jpg</pic>
+        <description>Каждый понедельник вы можете приобрести любое блюдо с морепродуктами</description> 
+        <price>со скидкой в 19%</price> 
+        <code>промокод MORE19</code>
+    </info>
+    <info id="22">
+        <toimg>АКЦИЯ НА СУПЫ</toimg> 
+        <pic>images/22.jpg</pic>
+        <description>В будние дни вы можете получить второй суп</description> 
+        <price>со скидкой в 50%</price> 
+        <code>промокод SOUP2</code>
+    </info>
+    <info id="33">
+        <toimg>АКЦИЯ НА ЗАКУСКИ</toimg> 
+        <pic>images/33.jpg</pic>
+        <description>При заказе от 30 BYN вы получите одну закуску на выбор</description> 
+        <price>бесплатно</price> 
+        <code>промокод SNACKS</code>
+    </info>
+    <info id="44">
+        <toimg>АКЦИЯ НА БЛЮДА С ЛАПШОЙ</toimg> 
+        <pic>images/44.jpg</pic>
+        <description>Каждую субботу вы можете приобрести любое блюдо с лапшой</description> 
+        <price>со скидкой в 30%</price> 
+        <code>промокод NOOD30</code>
+    </info>
+    <info id="55">
+        <toimg>АКЦИЯ НА БЛЮДА С КУРИЦЕЙ</toimg> 
+        <pic>images/55.jpg</pic>
+        <description>В выходные дни вы можете приобрести любое блюдо с курицей</description> 
+        <price>со скидкой в 40%</price> 
+        <code>промокод CHICK40</code>
+    </info>
+</stock>

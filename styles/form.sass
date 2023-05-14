@@ -1,0 +1,98 @@
+@font-face
+	font-family: "Arial AMU" 
+	src: url("fonts/ArianAMU-Bold.woff2") format('woff2'), url("fonts/arnamub.woff") format('woff') 
+	font-style: normal 
+	font-weight: bold 
+@font-face
+	font-family: "Arial AMU"
+	src: url("fonts/ArianAMU.woff2") format('woff2'), url("fonts/ArianAMU.woff") format('woff')
+	font-style: normal
+	font-weight: normal
+@font-face
+	font-family: "Montserrat" 
+	src: url("fonts/Montserrat-Regular.woff2") format('woff2'), url("fonts/Montserrat-Regular.woff") format('woff') 
+	font-style: normal 
+	font-weight: normal 
+@font-face
+	font-family: "Montserrat" 
+	src: url("fonts/Montserrat-SemiBold.woff2") format('woff2'), url("fonts/Montserrat-SemiBold.woff") format('woff') 
+	font-style: normal 
+	font-weight: bold 
+body 
+	font-family: 'Arial AMU' , 'Montserrat', sans-serif 
+	color: black 
+	background-color: #F4F4F8 
+	line-height: 1.5 
+	overflow-x: hidden 
+	overflow-y: scroll 
+form 
+	display: flex 
+	flex-direction: column 
+	width: 80vw 
+	max-width: 2000px 
+	border: 1px solid #262D4F 
+	border-radius: 3vw 
+	background-color: #fff 
+	padding: 3vw 
+	margin: 2vw auto 
+input 
+	width: 30vw 
+	border-radius: 1vw 
+	height: 2.5vw 
+	font-size: 1.2vw 
+.logo 
+	color: #262D4F 
+	height: 5vw 
+header 
+	text-align: center 
+.row 
+	display: flex 
+	justify-content: space-between 
+	margin: 1.5vw 0 
+	display: flex 
+	justify-content: space-between 
+	margin: 1.5vw 0 
+	width: 60vw 
+.put 
+	width: 50vw
+.title 
+	font-size: 2vw 
+label, .text,.btn.btn-primary 
+	font-size: 1.5vw 
+.text 
+	margin: 0 
+#code 
+	width: 10vw 
+.row-code 
+	width: 30vw 
+	margin: 3vw 0 
+.btn 
+	&.btn-primary
+		width: 12vw 
+		height: 3vw 
+		background-color: #262D4F 
+		color: #fff 
+		border-radius: 1.5vw 
+		background-color: #262D4F 
+		color: #fff 
+@media(max-width:500px) 
+	.logo
+		height: 30px 
+	input 
+		font-size: 8px 
+	.put 
+		width: 200px 
+	.title 
+		font-size: 12px 
+	label, .text,.btn.btn-primary 
+		font-size: 10px 
+	#code 
+		width: 50px 
+		height: 10px 
+	.row-code 
+		width: 200px 
+	.btn 
+		&.btn-primary
+			width: 60px 
+		height: 15px 
+		border-radius: 10px

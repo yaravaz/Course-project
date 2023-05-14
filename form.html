@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/лого2.svg" type="image/png">
+    <link rel="stylesheet" href="styles/css/form.css">
+    <title>UNA | Ресторан китайской кухни</title>
+</head>
+
+<body>
+    <section class="header">
+        <header>
+            <a href="index.html">
+                <img class="logo" src="images/лого3.svg" />
+            </a>
+        </header>
+    </section>
+    <form action="index.html">
+        <p class="title">ЗАПОЛНИТЕ ДАННЫЕ ДЛЯ ЗАКАЗА</p>
+        <div class="put">
+            <div class="row">
+                <label for="surname">Фамилия:</label>
+                <input type="data" id="surname" name="clients_surname" placeholder="Иванович">
+            </div>
+            <div class="row">
+                <label for="password">Номер:</label>
+                <input id="telNo" name="telNo" type="tel"placeholder="+375231234567">
+            </div>
+            <div class="row">
+                <label for="adress">Адрес:</label>
+                <input id="adress" name="clients_adress" placeholder="ул.Краснодарская, 2-3">
+            </div>
+        </div>
+        <p class="title">ПРОВЕРЬТЕ СВОЙ ЗАКАЗ</p>
+        <p class="text">Перед нажатием кпопки “Заказать” убедитесь в правильности своего заказа</p>
+        <div class="row-code">
+            <label for="code">ПРОМОКОД:</label>
+            <input id="code" name="clients_code" placeholder="WS3F6F">
+        </div>
+        <button type="submit" class="btn btn-primary">Заказать</button>
+    </form>
+</body>
+<script>
+    const button = document.querySelector('.btn.btn-primary')
+
+    button.addEventListener('click', function(){
+        alert("Заказ оформлен успешно!");
+        document.location('index.html');
+    })
+</script>
+</html>

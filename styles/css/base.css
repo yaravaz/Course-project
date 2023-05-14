@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Arial AMU";
+  src: url("fonts/ArianAMU-Bold.woff2") format("woff2"), url("fonts/arnamub.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Arial AMU";
+  src: url("fonts/ArianAMU.woff2") format("woff2"), url("fonts/ArianAMU.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.woff2") format("woff2"), url("fonts/Montserrat-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-SemiBold.woff2") format("woff2"), url("fonts/Montserrat-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+}
+body {
+  font-family: "Arial AMU", "Montserrat", sans-serif;
+  color: black;
+  background-color: #F4F4F8;
+  line-height: 1.5;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu li a {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  color: #fff;
+  font-size: 1.1vw;
+}
+.menu li a:after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: #fff;
+  transition: width 0.4s ease-in-out;
+}
+.menu li a:hover {
+  color: #fff;
+}
+
+.menu li a:hover:after, .menu li a:focus:after {
+  width: 100%;
+}

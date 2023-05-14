@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/лого2.svg" type="image/png">
+    <link rel="stylesheet" href="styles/css/base.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <title>UNA | Ресторан китайской кухни</title>
+</head>
+
+<body>
+    <section class="header">
+        <header>
+            <div class="burger">
+                <input type="checkbox" id="burger">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#1">Создать блюдо</a></li>
+                        <li><a href="#2">Категории</a></li>
+                        <li><a href="categories.html">Заказать</a></li>
+                    </ul>
+                </nav>
+                <label for="burger"></label>
+            </div>
+            <a href="main.html" class="logo">
+                <svg class="logoimg" id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.96 77.23"
+                    wigth="200" height="72">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                            }
+
+                            .cls-1,
+                            .cls-2,
+                            .cls-3 {
+                                stroke: #fff;
+                                stroke-miterlimit: 10;
+                            }
+
+                            .cls-1,
+                            .cls-2 {
+                                stroke-width: 4px;
+                            }
+
+                            .cls-2,
+                            .cls-3 {
+                                fill: #fff;
+                            }
+
+                            .cls-2 {
+                                stroke-linecap: round;
+                            }
+
+                            .cls-3 {
+                                font-size: 52.99px;
+                                stroke-width: 0.25px;
+                                font-family: TrebuchetMS, Trebuchet MS;
+                            }
+
+                            .cls-4 {
+                                letter-spacing: -0.06em;
+                            }
+                        </style>
+                    </defs>
+                    <path class="cls-1"
+                        d="M4,31H65.71a2,2,0,0,1,2,2v0a28.9,28.9,0,0,1-28.9,28.9H30a28,28,0,0,1-28-28V33a2,2,0,0,1,2-2Z" />
+                    <line class="cls-2" x1="45.39" y1="30.03" x2="48.67" y2="2" />
+                    <line class="cls-2" x1="51.9" y1="29.77" x2="60.61" y2="6.84" />
+                    <line class="cls-2" x1="14.74" y1="68.19" x2="55.02" y2="68.2" /><text class="cls-3"
+                        transform="translate(87.35 63.21)">UN<tspan class="cls-4" x="68.18" y="0">A</tspan>
+                        <tspan x="96.52" y="0"> </tspan>
+                    </text>
+                    <line class="cls-2" x1="10.13" y1="23.7" x2="10.13" y2="15.83" />
+                    <line class="cls-2" x1="19.36" y1="22.93" x2="19.36" y2="9.1" />
+                    <line class="cls-2" x1="27.76" y1="23.7" x2="27.76" y2="15.83" />
+                </svg>
+            </a>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Искать здесь...">
+                    <a href="#" onclick="window.location.reload(true);">
+                        <svg viewBox="0 0 31 31" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.5647 28.365L24.8176 22.6644C27.0485 19.8829 28.1288 16.3524 27.8365 12.7988C27.5442 9.24522 25.9015 5.93868 23.2461 3.55908C20.5908 1.17948 17.1246 -0.0923088 13.5604 0.00522189C9.99611 0.102753 6.60469 1.56219 4.08344 4.08344C1.56219 6.60469 0.102753 9.99611 0.00522189 13.5604C-0.0923088 17.1246 1.17948 20.5908 3.55908 23.2461C5.93868 25.9015 9.24522 27.5442 12.7988 27.8365C16.3524 28.1288 19.8829 27.0485 22.6644 24.8176L28.365 30.5183C28.509 30.6634 28.6804 30.7787 28.8691 30.8573C29.0579 30.936 29.2604 30.9765 29.4649 30.9765C29.6694 30.9765 29.8718 30.936 30.0606 30.8573C30.2494 30.7787 30.4207 30.6634 30.5647 30.5183C30.8439 30.2294 31 29.8434 31 29.4416C31 29.0399 30.8439 28.6539 30.5647 28.365ZM13.9741 24.8176C11.8294 24.8176 9.73295 24.1817 7.94973 22.9902C6.16652 21.7987 4.77667 20.1051 3.95595 18.1237C3.13523 16.1423 2.92049 13.9621 3.33889 11.8586C3.75729 9.75517 4.79004 7.82304 6.30654 6.30654C7.82304 4.79004 9.75517 3.75729 11.8586 3.33889C13.9621 2.92049 16.1423 3.13523 18.1237 3.95595C20.1051 4.77667 21.7987 6.16652 22.9902 7.94973C24.1817 9.73295 24.8176 11.8294 24.8176 13.9741C24.8176 16.85 23.6752 19.6081 21.6416 21.6416C19.6081 23.6752 16.85 24.8176 13.9741 24.8176Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </form>
+            </div>
+
+        </header>
+    </section>
+    <div class="slider__container">
+        <div class="slider__control">
+          <div class="slider__control-item prev"></div>
+          <div class="content">
+            <a href="slider.html#11"><img class="slider-item" src="images/1.jpg" alt="image"></a>
+            <a href="slider.html#22"><img class="slider-item" src="images/2.jpg" alt="image"></a>
+            <a href="slider.html#33"><img class="slider-item" src="images/3.jpg" alt="image"></a>
+            <a href="slider.html#44"><img class="slider-item" src="images/4.jpg" alt="image"></a>
+            <a href="slider.html#55"><img class="slider-item" src="images/5.jpg" alt="image"></a>
+          </div>
+          <div class="slider__control-item next"></div>
+        </div>
+        <div class="slider__dots"></div>
+    </div>
+    <section class="recom">
+        <p class="title_recom">РЕКОМЕНДУЕМЫЕ ТОВАРЫ</p>
+        <div class="items-img">
+            <figure class="recom_item">
+                <img src="images/курица1.jpg"/>
+                <figcaption>Тёплый поке с курицей</figcaption>
+            </figure>
+            <figure class="recom_item">
+                <img src="images/говядина1.jpg"/>
+                <figcaption>Говядина с тофу</figcaption>
+            </figure>
+            <figure class="recom_item">
+                <img src="images/закуски1.jpg"/>
+                <figcaption>Рулька с чесноком</figcaption>
+            </figure>
+            <figure class="recom_item">
+                <img src="images/лапша.jpg"/>
+                <figcaption>Пад тай с креветками</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="categories">
+        <p class="title-categories" id="2">КАТЕГОРИИ</p>
+        <div class="items-categ-img">
+            <div class="row-1">
+                <div class="item-1">
+                    <a href="categories.html#soup"><p class="text">Супы</p></a>
+                </div>
+                <div class="item-2">
+                    <a href="categories.html#meat"><p class="text">Мясо</p></a>
+                </div>
+                <div class="item-3">
+                    <a href="categories.html#noodles"><p class="text">Лапша</p></a>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="item-4">
+                    <a href="categories.html#seafood"><p class="text">Морепродукты</p></a>
+                </div>
+                <div class="item-5">
+                    <a href="categories.html#snacks"><p class="text">Закуски</p></a>
+                </div>
+                <div class="item-6">
+                    <a href="categories.html#desserts"><p class="text">Десерты</p></a>
+                </div>
+                <div class="item-7">
+                    <a href="categories.html#drinks"><p class="text">Напитки</p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <p class="title_food" id="1">СОЗДАЙ СВОЁ БЛЮДО</p>
+        <div class="mainrow">
+            <div class="col-md-8">
+                <div class="row">
+                    <p class="title-food" >Основа</p>
+                    <div class="row-11">
+                        <div class="col-md-6">
+                            <div class="card mb-4" data-id="01">
+                                <img class="product-img" src="images/моялапша1.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="item-title">Яичная лапша</h4>
+                                    <p><small data-items-in-box class="text-muted"></small></p>
+        
+                                    <div class="details-wrapper">
+    
+                                        <div class="price">
+                                            <div class="price__weight">200г.</div>
+                                            <div class="price__currency">2 BYN</div>
+                                        </div>
+                                        <div class="items counter-wrapper">
+                                            <div class="items__control" data-action="minus">-</div>
+                                            <div class="items__current" data-counter>1</div>
+                                            <div class="items__control" data-action="plus">+</div>
+                                        </div>
+    
+                                    </div>
+        
+                                    <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить</button>
+        
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card mb-4" data-id="02">
+                                <img class="product-img" src="images/моялапша3.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="item-title">Рисовая лапша</h4>
+                                    <p><small data-items-in-box class="text-muted"></small></p>
+        
+                                    <div class="details-wrapper">
+    
+                                        <div class="price">
+                                            <div class="price__weight">200г.</div>
+                                            <div class="price__currency">2 BYN</div>
+                                        </div>
+                                        <div class="items counter-wrapper">
+                                            <div class="items__control" data-action="minus">-</div>
+                                            <div class="items__current" data-counter>1</div>
+                                            <div class="items__control" data-action="plus">+</div>
+                                        </div>
+    
+                                    </div>
+        
+                                    <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить</button>
+        
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6">
+                            <div class="card mb-4" data-id="03">
+                                <img class="product-img" src="images/моялапша2.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="item-title">Рис</h4>
+                                    <p><small data-items-in-box class="text-muted"></small></p>
+        
+                                    <div class="details-wrapper">
+    
+                                        <div class="price">
+                                            <div class="price__weight">200г.</div>
+                                            <div class="price__currency">3 BYN</div>
+                                        </div>
+                                        <div class="items counter-wrapper">
+                                            <div class="items__control" data-action="minus">-</div>
+                                            <div class="items__current" data-counter>1</div>
+                                            <div class="items__control" data-action="plus">+</div>
+                                        </div>
+    
+                                    </div>
+        
+                                    <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить</button>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <p class="title-food" >Начинка</p>
+                    <div class="row-11">
+                        <div class="col-md-6">
+                            <div class="card mb-4" data-id="04">
+                                <img class="product-img" src="images/начинка1.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="item-title">Курица в кисло-сладком соусе</h4>
+                                    <p><small data-items-in-box class="text-muted"></small></p>
+        
+                                    <div class="details-wrapper">
+    
+                                        <div class="price">
+                                            <div class="price__weight">200г.</div>
+                                            <div class="price__currency">11 BYN</div>
+                                        </div>
+                                        <div class="items counter-wrapper">
+                                            <div class="items__control" data-action="minus">-</div>
+                                            <div class="items__current" data-counter>1</div>
+                                            <div class="items__control" data-action="plus">+</div>
+                                        </div>
+    
+                                    </div>
+        
+                                    <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить</button>
+        
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card mb-4" data-id="05">
+                                <img class="product-img" src="images/начинка2.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="item-title">Курица по рецепту Гунбао</h4>
+                                    <p><small data-items-in-box class="text-muted"></small></p>
+        
+                                    <div class="details-wrapper">
+    
+                                        <div class="price">
+                                            <div class="price__weight">200г.</div>
+                                            <div class="price__currency">13 BYN</div>
+                                        </div>
+                                        <div class="items counter-wrapper">
+                                            <div class="items__control" data-action="minus">-</div>
+                                            <div class="items__current" data-counter>1</div>
+                                            <div class="items__control" data-action="plus">+</div>
+                                        </div>
+    
+                                    </div>
+        
+                                    <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить</button>
+        
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6">
+                            <div class="card mb-4" data-id="06">
+                                <img class="product-img" src="images/начинка3.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="item-title">Говядина с чёрным перцем</h4>
+                                    <p><small data-items-in-box class="text-muted"></small></p>
+        
+                                    <div class="details-wrapper">
+    
+                                        <div class="price">
+                                            <div class="price__weight">200г.</div>
+                                            <div class="price__currency">14 BYN</div>
+                                        </div>
+                                        <div class="items counter-wrapper">
+                                            <div class="items__control" data-action="minus">-</div>
+                                            <div class="items__current" data-counter>1</div>
+                                            <div class="items__control" data-action="plus">+</div>
+                                        </div>
+    
+                                    </div>
+        
+                                    <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить</button>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card mb-4" data-id="07">
+                                <img class="product-img" src="images/начинка4.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="item-title">Свинина жаренная</h4>
+                                    <p><small data-items-in-box class="text-muted"></small></p>
+        
+                                    <div class="details-wrapper">
+    
+                                        <div class="price">
+                                            <div class="price__weight">200г.</div>
+                                            <div class="price__currency">11 BYN</div>
+                                        </div>
+                                        <div class="items counter-wrapper">
+                                            <div class="items__control" data-action="minus">-</div>
+                                            <div class="items__current" data-counter>1</div>
+                                            <div class="items__control" data-action="plus">+</div>
+                                        </div>
+    
+                                    </div>
+        
+                                    <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить</button>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="title-food" >Соус</p>
+                    <div class="row-11">
+                        <div class="col-md-6">
+                            <div class="card mb-4" data-id="08">
+                                <img class="product-img" src="images/соус1.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="item-title">Кисло-сладкий соус</h4>
+                                    <p><small data-items-in-box class="text-muted"></small></p>
+        
+                                    <div class="details-wrapper">
+    
+                                        <div class="price">
+                                            <div class="price__weight">50г.</div>
+                                            <div class="price__currency">2 BYN</div>
+                                        </div>
+                                        <div class="items counter-wrapper">
+                                            <div class="items__control" data-action="minus">-</div>
+                                            <div class="items__current" data-counter>1</div>
+                                            <div class="items__control" data-action="plus">+</div>
+                                        </div>
+    
+                                    </div>
+        
+                                    <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить</button>
+        
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card mb-4" data-id="09">
+                                <img class="product-img" src="images/соус2.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="item-title">Соевый соус</h4>
+                                    <p><small data-items-in-box class="text-muted"></small></p>
+        
+                                    <div class="details-wrapper">
+    
+                                        <div class="price">
+                                            <div class="price__weight">50г.</div>
+                                            <div class="price__currency">1 BYN</div>
+                                        </div>
+                                        <div class="items counter-wrapper">
+                                            <div class="items__control" data-action="minus">-</div>
+                                            <div class="items__current" data-counter>1</div>
+                                            <div class="items__control" data-action="plus">+</div>
+                                        </div>
+    
+                                    </div>
+        
+                                    <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить</button>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>     
+    
+            </div>
+            <div class="col-md-3">
+    
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Ваш заказ</h4>
+                        <div data-cart-empty class="alert alert-secondary" role="alert">
+                            Корзина пуста
+                        </div>
+                        <div class="cart-wrapper">
+    
+                        </div>
+
+                        <div class="cart-total none">
+                            <p><span class="h5">Доставка:</span> <span class="delivery-cost free">бесплатно</span> </p>
+                            <p><span class="h5">Итого:</span> <span class="total-price">330</span> <span class="rouble">BYN</span></p>
+                        </div>
+    
+                    </div>
+    
+                    <div id="order-form" class="card-body border-top none">
+                        <h5 class="card-title">Оформить заказ</h4>
+                        <form action="form.html">
+                            <button type="submit" class="btn btn-primary">Заказать</button>
+                        </form>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+        </div>
+    </div>
+    <script>
+    const cartWrapper = document.querySelector('.cart-wrapper');
+    
+    window.addEventListener('click', function(event) {
+    
+    
+    
+        if(event.target.hasAttribute('data-action')){
+            const counterWrapper = event.target.closest('.counter-wrapper');
+            const counter = counterWrapper.querySelector('[data-counter');
+    
+            if(event.target.dataset.action === 'plus'){
+                counter.innerText = ++counter.innerText;
+    
+                if(event.target.closest('.cart-wrapper')){
+                    toggleCartStatus();
+                }
+    
+            } else if(event.target.dataset.action === 'minus'){
+    
+                if(event.target.closest('.cart-wrapper')) {
+                    if(parseInt(counter.innerText) > 1){
+                        counter.innerText = --counter.innerText;
+                    } else {
+                        event.target.closest('.cart-item').remove();
+                    }
+                    toggleCartStatus();
+                }
+            } else {
+                    if(parseInt(counter.innerText) > 1){
+                       counter.innerText = --counter.innerText;
+                    }
+            } 
+        }
+    
+    
+    
+        if(event.target.hasAttribute('data-cart')) {
+            const cart = event.target.closest('.card');
+    
+            const productInfo = {
+                id: cart.dataset.id,
+                imgSrc: cart.querySelector('.product-img').getAttribute('src'),
+                title: cart.querySelector('.item-title').innerText,
+                itemsInBox: cart.querySelector('[data-items-in-box]').innerText,
+                weight: cart.querySelector('.price__weight').innerText,
+                price: cart.querySelector('.price__currency').innerText,
+                counter: cart.querySelector('[data-counter]').innerText,
+            }
+    
+        
+            const cartItemHtml = 
+                        `<div class="cart-item" data-id="${productInfo.id}">
+                            <div class="cart-item__top">
+                                <div class="cart-item__img">
+                                    <img src="${productInfo.imgSrc}" alt="">
+                                </div>
+                                <div class="cart-item__desc">
+                                    <div class="cart-item__title">${productInfo.title}</div>
+                                    <div class="cart-item__weight">${productInfo.weight}</div>
+    
+                                    <div class="cart-item__details">
+    
+                                        <div class="items items--small counter-wrapper">
+                                            <div class="items__control" data-action="minus">-</div>
+                                            <div class="items__current" data-counter="">${productInfo.counter}</div>
+                                            <div class="items__control" data-action="plus">+</div>
+                                        </div>
+    
+                                        <div class="price">
+                                            <div class="price__currency">${productInfo.price}</div>
+                                        </div>
+    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>`;
+    
+                const itemInCart = cartWrapper.querySelector(`[data-id="${productInfo.id}"]`);
+    
+                if(itemInCart){
+                     const counterElement = itemInCart.querySelector('[data-counter]');
+                     counterElement.innerText = parseInt(counterElement.innerText) + parseInt(productInfo.counter);
+                } else {
+                     cartWrapper.insertAdjacentHTML('beforeend', cartItemHtml);
+                }
+    
+                cart.querySelector('[data-counter]').innerText = '1';
+                toggleCartStatus()
+        }
+    
+        function toggleCartStatus() {
+            const cartEmpty = document.querySelector('[data-cart-empty]');
+            const cartTotal = document.querySelector('.cart-total');
+            const orderForm = document.querySelector('#order-form');
+    
+            if(cartWrapper.querySelectorAll('.cart-item').length > 0) {
+                cartEmpty.classList.add('none');
+                cartTotal.classList.remove('none');
+                orderForm.classList.remove('none');
+            } else {
+                cartEmpty.classList.remove('none');
+                cartTotal.classList.add('none');
+                orderForm.classList.add('none');
+            }
+    
+            let totalPrice = 0;
+            cartWrapper.querySelectorAll('.cart-item').forEach(function(item) {
+                const counter = item.querySelector('[data-counter]').innerText;
+                const priceOneItem = item.querySelector('.price__currency').innerText;
+                const price = parseInt(counter) * parseInt(priceOneItem);
+                totalPrice = totalPrice + price;
+            })
+            cartTotal.querySelector('.total-price').innerText = totalPrice;
+        }
+    
+    
+    })
+    
+    
+    </script>
+      <script src="throttle.js"></script>
+      <script src="script.js"></script>
+      <script>
+        new Slider(0, { autoPlay: true, fade: true })
+      </script>
+</body>
+</html>
